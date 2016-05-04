@@ -3,7 +3,6 @@
 //! Wraps the Hyper library to send PUT, POST, DELETE and GET requests.
 
 use std::io::Read;
-
 use hyper::Client;
 use hyper::client::Response;
 use hyper::client::RedirectPolicy;
